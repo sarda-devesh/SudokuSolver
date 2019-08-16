@@ -125,6 +125,6 @@ def solve_sudoku_with_video(path_to_model):
     solve_sudoku(frame_name,path_to_model)
 
 if __name__ == "__main__":
-    path_to_image = os.path.join("images", "input.jpeg")
+    path_to_image = os.path.join("images", "test.jpg")
     path_to_model = "model"
     solve_sudoku(path_to_image, path_to_model)
